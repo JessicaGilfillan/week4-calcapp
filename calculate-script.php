@@ -2,7 +2,7 @@
 
 //create variables to store info 
 $bill_total = filter_input(INPUT_POST, 'amount');
-$tip_percentage = filter_input(INPUT_POST, 'percentage')
+$tip_percentage = filter_input(INPUT_POST, 'percentage');
 $submit = filter_input(INPUT_POST, 'submit'); 
 
 //create a function to calculate the tip percentage and return 
